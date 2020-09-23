@@ -6,12 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-psycopg2 = "*"
-Flask = "*"
-Flask-RESTful = "*"
-Flask-JWT = "*"
-Flask-SQLAlchemy = "*"
-uWSGI = "*"
+flask = "*"
+flask-jwt = "*"
+flask-restful = "*"
+flask-sqlalchemy = "*"
+uwsgi = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
